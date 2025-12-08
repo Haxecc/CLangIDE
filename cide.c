@@ -46,6 +46,7 @@ void compile(const char* path)
 
 	system("clear");
 	int status = system(compile_cmd);
+	system("rm garbage");
 
 	if (status == 0)
 	{
