@@ -1,12 +1,16 @@
-# CLangIDE
-This is very simple IDE for c language
-
 # Usage
 ```
-Usage: cide <file_name.c>
+./cide
 ```
+Use this cide with cmake and store your source files in src folder
+
 
 # Compilation
 ```
-gcc -o cide cide.c
+mkdir build
+cd build
+cmake ..
+cmake --build .
 ```
+Now file with ide located in ./build/cide
+
